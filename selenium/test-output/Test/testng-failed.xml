@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DemoQA(failed)">
+    <classes>
+      <class name="demoQa.LinksTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickLinksTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- demoQa.LinksTest -->
+    </classes>
+  </test> <!-- DemoQA(failed) -->
+</suite> <!-- Failed suite [Test] -->

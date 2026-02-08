@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite  name="Test">
+    <test name="DemoQA">
+        <classes>
+            <class name="demoQa.FormTest"/>
+            <class name="demoQa.TextBoxTest"/>
+            <class name="demoQa.WebTablesTest"/>
+            <class name="demoQa.ButtonsTest"/>
+            <class name="demoQa.LinksTest"/>
+        </classes>
+    </test>
+</suite>
